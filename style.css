@@ -142,3 +142,14 @@ footer {
         }
     }
 }
+
+@media screen and (max-width: 900px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+
+        & div:nth-child(2) {
+            margin-top: 1em;
+        }
+    }
+}
